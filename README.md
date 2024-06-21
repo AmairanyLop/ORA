@@ -1,1 +1,1 @@
-ITS JUST A TRIED
+Im JUST A trying
