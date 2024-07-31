@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(182, 182, 214);
+    background-color: rgb(247, 247, 247);
     color: #100666;
 
 }
@@ -10,11 +10,12 @@ body {
 
 .principal {
     display: flex;
-    margin: 6%;
+    margin-right: 3%;
     justify-content: space-between;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: large;
- flex-direction: row;
+    flex-direction: row;
+    background-color: #bab5e6;
 }
 
 
@@ -34,20 +35,28 @@ button {
     border-radius: 19px;
     size: 20px;
 }
-img{
+
+img {
+    padding-top: 10px;
+    margin-left: 10px;
+    width: 10%;
     size: 20px;
     flex-direction: row;
 }
 
 
-main{
+main {
     align-items: center;
+
+    padding-left: 5%;
+
 }
 
-button:hover{
-    background-color: rgb(107, 180, 245);
+button:hover {
+    background-color: rgb(162, 92, 243);
 }
-footer{
+
+footer {
     background-color: #100666;
     color: aliceblue;
     text-align: center;
@@ -55,38 +64,73 @@ footer{
     font-size: smaller;
 
 }
-header{
-   
+
+header {
+
     font-family: Arial, Helvetica, sans-serif;
-align-items: center;
+    align-items: center;
     flex-direction: row;
     display: flex;
-   
+
 }
 
-.area2{
+.mensaje {
     text-align: center;
     font-size: larger;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
     background-color: aliceblue;
     color: #100666;
-    padding-left: 10%;
-    padding-right: 10%;
-    padding-top: 30%;
-    padding-bottom: 30%;
+   
+    background-repeat: no-repeat;
+  
 
 
 }
-section{
 
- 
+.mensaje:focus {
+    outline: none;
+}
+
+
+section {
     text-align: center;
-    
-padding-right: 10%;
+
+
 }
-a{
+
+
+
+
+
+
+a {
     text-decoration: none;
     padding: 20px;
-align-items: center;
+    align-items: center;
+}
+
+main {
+    display: flex;
+
+
+}
+
+textarea {
+    border: none;
+    margin-top: 90px;
+    color: #100666;
+
+
+}
+.text-area:focus{
+    outline: none;
+}
+
+::placeholder {
+    color: #100666;
+}
+
+.side {
+    background-color: aliceblue;
 }

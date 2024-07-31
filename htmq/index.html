@@ -5,7 +5,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Encriptador</title>
-    <script src="/javaScript/script.js"></script>
     <link rel="stylesheet" href="/styles/style.css">
 </head>
 
@@ -13,30 +12,37 @@
     
     <header>
        
-       <nav> <img class="logo" src="/imagenes/LogoAlura.png" alt="LogoAlura">
+        <img class="logo" src="/imagenes/LogoAlura.png" alt="LogoAlura">
         <p class="head">JUEGO DE ENCRIPTAR ALURA</p>
         <a href="about.html">Mas Juegos</a>
         <a href="index.html">Juego encriptar</a>
-       </nav>
+       
     </header>
     <main class="principal">
         <section class="texto">
             <h2>ENCRIPTADOR DE TEXTO</h2>
-            <textArea name="mensaje" class="area1">Escribe el mensaje</textArea>
-
+            <textarea class="text-area" cols="30" rows="10" placeholder="Ingrese el texto" ></textarea>
             <div class="botones">
-
-                <button class="btn-Encriptar" onclick="btnEncriptar()"> ENCRIPTAR</button>
-                <button class="btn-Desencriptar" onclick="btnDesencriptar()"> DESENCRIPTAR</button>
+                <button class="btn-encriptar" onclick="btnEncriptar()"> ENCRIPTAR</button>
+                <button class="btn-desencriptar" onclick="btnDesencriptar()"> DESENCRIPTAR</button>
             </div>
         </section>
+        <section class="side">
+            <textArea  class="mensaje" cols="20" rows="10" placeholder="NO SE HA ENCRIPTADO NINGUN TEXTO" ></textArea>
+        <div>
+            <button class="copiar" onclick="btnlimpiar()" >LIMPIAR</button>
+        </div>
         
-        <textArea name="desmensaje"  class="area2" >Ningun mensaje se ha encriptado</textArea>
+        </section>
+        
+        
     </main>
     <footer>
         <p>Derechos reservados</p>
         
     </footer>
+
+<script src="/javaScript/script.js"></script>
 </body>
 
 </html>
