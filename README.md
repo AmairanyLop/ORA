@@ -1,1 +1,1 @@
-Es un pequeño proyecto sobre codificar de decodificar el texto ingresado. 
+Es un pequeño proyecto, sobre codificar y decodificar el texto ingresado en la pagina. 
